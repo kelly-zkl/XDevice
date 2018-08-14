@@ -1,0 +1,79 @@
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeOutDown {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(1) {*/
+/*animation: fadeInDown 10s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(2) {*/
+/*animation: fadeInDown 9s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(3) {*/
+/*animation: fadeInDown 8s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(4) {*/
+/*animation: fadeInDown 7s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(5) {*/
+/*animation: fadeInDown 6s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(6) {*/
+/*animation: fadeInDown 5s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(7) {*/
+/*animation: fadeInDown 4s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(8) {*/
+/*animation: fadeInDown 3s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(9) {*/
+/*animation: fadeInDown 2s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+/*.el-table .el-table__body tr.el-table__row:nth-child(10) {*/
+/*animation: fadeInDown 1s infinite;*/
+/*animation-iteration-count: 1*/
+/*}*/
+
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background: #d6d6d6;
+  background-clip: padding-box;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped.current-row td {
+  background: #edf7ff;
+}
